@@ -31,7 +31,7 @@ void setup() {
   lcd.print("System Starting");
 
   RTC.begin();
-  RTCTime startTime(18, Month::FEBRUARY, 2026, 8, 59, 50, DayOfWeek::WEDNESDAY, SaveLight::SAVING_TIME_INACTIVE);
+  RTCTime startTime(18, Month::FEBRUARY, 2026, 8, 59, 50, DayOfWeek::WEDNESDAY, SaveLight::SAVING_TIME_INACTIVE); //Note the time displayed here was date of publishing/presenting said project.
   RTC.setTime(startTime);
   
   delay(1000);
